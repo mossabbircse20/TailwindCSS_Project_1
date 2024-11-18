@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#252525]">
+    <header>
+        <div id="header-nav-bar" class="bg-[#252525] flex items-center justify-between mx-[200px] mt-[50px]">
+            <h1 class="font-sans text-[2rem] italic font-bold text-[#ea580c] ">Fitness</h1>
+            <span class="flex items-center justify-between h-[46px] w-[400px] text-white border rounded-[3rem] px-[2px]">
+                <p class="bg-[#ea580c] h-[40px] w-[100px] flex items-center justify-center rounded-[3rem]">Home</p>
+                <p class="h-[40px] w-[100px] flex items-center justify-center">Service</p>
+                <p class="h-[40px] w-[100px] flex items-center justify-center">Contact</p>
+                <p class="h-[40px] w-[100px] flex items-center justify-center">About</p>
+            </span>
+        </div>
+    </header>
+</body>
+</html>

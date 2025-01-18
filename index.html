@@ -68,10 +68,10 @@
 
 
 <!--Main Section -->
-<main class="flex-col justify-items-center content-center">
+<main class="xl: flex-col justify-items-center content-center">
 
    <!--herosection-1-->
-   <div class="flex-col justify-items-center content-center text-white mx-[200px] my-[20px] h-[450px] w-100">
+   <div class="xl: flex-col justify-items-center content-center text-white mx-[200px] my-[20px] h-[450px] w-100">
     <!--herosection1 text-field-->
     <div class="flex-col justify-items-center content-center py-5">
       <h1 class="text-center text-[2.5rem] font-bold py-2">Change Your Habits</h1>
@@ -79,7 +79,7 @@
     </div>
 
     <!--herosection-1 item-field-->
-    <div class="grid grid-cols-4 gap-[2.5rem]">
+    <div class="xl: grid grid-cols-4 gap-[2.5rem]">
 
       <div class="flex-col justify-items-center content-center">
         <img src="./images/image 3.png" alt="" class="rounded-full py-5">
@@ -112,7 +112,7 @@
   
   <!--Herosection-2 -->
 
-  <div class="bg-neutral-700 shadow-lg shadow-zinc-600/20 h-[370px] w-100 flex justify-evenly items-center text-white mx-[200px] my-[20px] p-[50px]  rounded-[2rem] ">
+  <div class="xl: bg-neutral-700 shadow-lg shadow-zinc-600/20 h-[370px] w-100 flex justify-evenly items-center text-white mx-[200px] my-[20px] p-[50px]  rounded-[2rem] ">
     <div class="flex-col justify-items-start content-center w-80 h-[300px]">
       <h1 class="text-left font-bold text-[2.5rem]">Run an Extra Mile Easily</h1>
       <p class="text-left text-[0.8rem] opacity-[0.5] my-[20px]">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
@@ -121,12 +121,12 @@
     <img src="./images/run.jpg" alt="" class="bg-center bg-cover bg-no-repeat h-[312px] w-[366px] rounded-[2rem]">
   </div>
 
- <!--Herosection-2-->
- <div class="bg-[#252525] shadow-lg shadow-zinc-600/20 w-100 flex-col justify-items-start content-center text-white mx-[200px] my-[20px] p-[50px]  rounded-[2rem] ">
+ <!--Herosection-3-->
+ <div class="xl: bg-[#252525] shadow-lg shadow-zinc-600/20 w-100 flex-col justify-items-start content-center text-white mx-[200px] my-[20px] p-[50px]  rounded-[2rem] ">
   <h1 class="text-left font-bold text-[2.5rem]" >Trainings and Exercises</h1>
   <p class="text-left text-[0.8rem] opacity-[0.5] my-[20px]">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
 
-  <div class="h-[580px] grid grid-cols-12">
+  <div class="xl: h-[580px] grid grid-cols-12">
     <img class="h-[290px] w-100 col-span-3" src="./images/exercise1.jpg" alt="">
     <img class="h-[290px] w-100 col-span-5" src="./images/exercise2.png" alt="">
     <img class="h-[290px] w-100 col-span-4" src="./images/exercise3.png" alt="">
@@ -136,12 +136,54 @@
   </div>
  </div>
 
- <!--Herosection-3 -->
+ <!--Herosection-4 -->
 
- <div class="bg-[#252525] shadow-lg shadow-zinc-600/20 w-[670px] flex-col justify-items-center content-start text-white mx-[200px] my-[20px] p-[50px] rounded-[2rem]">
+ <div class="xl: bg-[#252525] shadow-lg shadow-zinc-600/20 w-[670px] flex-col justify-items-center content-start text-white mx-[200px] my-[20px] p-[50px] rounded-[2rem]">
     <h1 class="text-left font-bold text-[2.5rem]">BMI Calculator</h1>
     <p class="text-left text-[0.8rem] opacity-[0.5] my-[20px]">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
  </div>
+
+ <!--Herosection-5-->
+
+ <span class="xl: bg-[#202020] shadow-lg shadow-zinc-600/20 h-[500px] w-100 flex justify-between items-start text-white px-[500px] py-[60px] my-[20px] gap-12">
+  <div class="h-[385px] w-[580px] flex-col justify-items-center content-start">
+    <h1 class="text-left font-bold text-[2rem] mb-[50px]" >BMI Calculator Chart</h1>
+    <table class="text-center h-[215px] w-[310px] border-collapse border text-white">
+      <tr class="border divide-y divide-x">
+        <th>BMI</th>
+        <th>Weight Status</th>
+      </tr>
+      <tr class="border divide-y divide-x">
+        <td>Below 18.5</td>
+        <td>Underweight</td>
+      </tr>
+      <tr class="border divide-y divide-x">
+        <td>18.5 - 24.9</td>
+        <td>Healthy</td>
+      </tr>
+      <tr class="border divide-y divide-x">
+        <td>25.0 - 29.9</td>
+        <td>Overweight</td>
+      </tr>
+      <tr class="border divide-y divide-x">
+        <td>30.0 - and Above</td>
+        <td>Obese</td>
+      </tr>
+    </table>
+  </div>
+  <div class="h-[385px] w-[580px] flex-col justify-items-start content-center">
+  <h1 class="text-left font-bold text-[2rem]">Calculate your BMI</h1>
+  <p class="text-left text-[0.8rem] opacity-[0.5] my-[20px]">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+  <div class="grid grid-cols-2 gap-2">
+    <input class="bg-[#393939] text-white h-[50px] w-[280px] rounded-[0.5rem] text-center" type="text" placeholder="Height/cm">
+    <input class="bg-[#393939] text-white h-[50px] w-[280px] rounded-[0.5rem] text-center" type="text" placeholder="Weight/kg">
+    <input class="bg-[#393939] text-white h-[50px] w-[280px] rounded-[0.5rem] text-center" type="text" placeholder="Age">
+    <input class="bg-[#393939] text-white h-[50px] w-[280px] rounded-[0.5rem] text-center" type="text" placeholder="Sex"> 
+    <input class="col-span-2 bg-[#393939] text-white h-[50px] rounded-[0.5rem] text-center" type="text" placeholder="Select an activity factor">
+  <div>
+  <button class="bg-[#ea580c] w-[225px] h-[55px] rounded-[2rem] my-[10px] text-[1.2rem] font-bold">Calculate</button>
+  </div>
+ </span>
 </main>
 
 </body>
